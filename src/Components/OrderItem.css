@@ -1,0 +1,42 @@
+.order-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-details {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .order-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-buttons button.edit {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .order-buttons button.delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .order-buttons button:hover {
+    opacity: 0.8;
+  }
+  

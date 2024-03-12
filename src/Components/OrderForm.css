@@ -1,0 +1,38 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+
+  }
+  
+  .form-input {
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #348a75;
+    border-radius: 5px;
+  
+  }
+  
+  .form-input[type="date"] {
+    padding: 10px;
+  }
+  
+  .form-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  

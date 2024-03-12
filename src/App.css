@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 100vw;
+
+}
+.container {
+  width: 100vw;
+  margin-left: 0;
+}
+
+.header {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center;
+  padding: 10px;
+  width: 100%; 
+}
+
+.navbar {
+  background-color: #e7eef0;
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #854f1d;
+}
